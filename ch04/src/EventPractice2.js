@@ -44,6 +44,8 @@ function EventPractice2() {
          <button onClick={onClick}>확인</button>
       </div>
    )
+
+   // 깃 테스트용 주석
 }
 
 export default EventPractice2

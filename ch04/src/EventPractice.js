@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 
 function EventPractice() {
+   // 깃 테스트용 주석
+
    const [username, setUsername] = useState("")
    const [message, setMessage] = useState("")
 
