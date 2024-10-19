@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//import UseEffectEx from "./UseEffectEx"; // eslint-disable-line no-unused-vars
+//import UseStateEx from "./UseStateEx";
+//import UseMemoEx1 from "./UseMemoEx1";
+//import UseMemoEx2 from "./UseMemoEx2";
+//import UseMemoEx3 from "./UseMemoEx3";
+import ToggleEx from "./ToggleEx";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //return <UseEffectEx />;
+  //return <UseStateEx />;
+  //return <UseMemoEx1 />;
+  //return <UseMemoEx2 />;
+  //return <UseMemoEx3 />;
+  return <ToggleEx></ToggleEx>;
 }
 
 export default App;
