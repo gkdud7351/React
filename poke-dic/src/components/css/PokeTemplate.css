@@ -1,0 +1,11 @@
+.PokeTemplate .app-title {
+  background: #ffffff;
+  color: #000000;
+  height: 4rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}

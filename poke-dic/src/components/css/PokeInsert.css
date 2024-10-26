@@ -1,0 +1,21 @@
+.inner {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.PokeInsert {
+  display: flex;
+  background: #ffffff;
+}
+
+.PokeInsert input {
+  background: none;
+  outline: none;
+  border: 1 solid;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: rgb(60, 58, 58);
+  flex: 1;
+}

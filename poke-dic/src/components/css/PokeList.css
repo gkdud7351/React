@@ -1,0 +1,12 @@
+.inner {
+  max-width: 780px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.PokeList {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  padding: 0 0 0 0;
+}
