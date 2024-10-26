@@ -24,7 +24,9 @@ function PokeInsert({ onInsert }) {
           value={value}
           onChange={onChange}
         ></input>
-        <button type="submit">등록</button>
+        <button className="btn" type="submit">
+          등록
+        </button>
       </form>
     </div>
   );

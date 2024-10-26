@@ -12,10 +12,27 @@
 .PokeInsert input {
   background: none;
   outline: none;
-  border: 1 solid;
-  padding: 0.5rem;
-  font-size: 1.125rem;
+  border: 1px solid #3498db;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
   line-height: 1.5;
-  color: rgb(60, 58, 58);
+  color: #333;
   flex: 1;
+  margin-right: 3px;
+}
+.PokeInsert .btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.PokeInsert .btn:hover {
+  background-color: #2980b9; /* 호버 시 더 어두운 파란색 */
 }
