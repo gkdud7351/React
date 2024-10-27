@@ -6,6 +6,11 @@
   text-align: center;
   margin: 20px 0;
 }
+
+.PokeListItem.unactive {
+  filter: grayscale(100%);
+}
+
 button {
   display: block;
   margin: 0 auto;

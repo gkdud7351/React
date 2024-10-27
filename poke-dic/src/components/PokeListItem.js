@@ -1,10 +1,16 @@
 import "./css/PokeListItem.css";
+import classnames from "classnames";
 
-function PokeListItem({ poke, onRemove }) {
-  const { id, name, img } = poke;
+function PokeListItem({ poke, onRemove, onDoubleClick }) {
+  const { id, name, img, unactive } = poke;
 
   return (
-    <li className="PokeListItem">
+    <li
+      className={classnames("PokeListItem", { unactive })}
+      onDoubleClick={() => {
+        onDoubleClick(id);
+      }}
+    >
       <img src={poke.img} alt={poke.name} width="130" />
       <p>{poke.name}</p>
       <button

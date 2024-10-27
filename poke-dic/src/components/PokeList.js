@@ -1,7 +1,7 @@
 import "./css/PokeList.css";
 import PokeListItem from "./PokeListItem";
 
-function PokeList({ pokes, onRemove, onChangeName }) {
+function PokeList({ pokes, onRemove, onDoubleClick }) {
   return (
     <div className="inner">
       <ul className="PokeList">
@@ -10,7 +10,7 @@ function PokeList({ pokes, onRemove, onChangeName }) {
             poke={poke}
             key={poke.id}
             onRemove={onRemove}
-            onChange={onChangeName}
+            onDoubleClick={onDoubleClick}
           ></PokeListItem>
         ))}
       </ul>
