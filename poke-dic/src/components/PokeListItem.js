@@ -5,13 +5,16 @@ function PokeListItem({ poke, onRemove, onDoubleClick }) {
   const { id, name, img, unactive } = poke;
 
   return (
-    <li
-      className={classnames("PokeListItem", { unactive })}
-      onDoubleClick={() => {
-        onDoubleClick(id);
-      }}
-    >
-      <img src={poke.img} alt={poke.name} width="130" />
+    <li className="PokeListItem">
+      <img
+        src={poke.img}
+        alt={poke.name}
+        width="130"
+        className={classnames("PokeListItemImg", { unactive })}
+        onDoubleClick={() => {
+          onDoubleClick(id);
+        }}
+      />
       <p>{poke.name}</p>
       <button
         onClick={() => {
